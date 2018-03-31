@@ -39,6 +39,12 @@ module.exports = {
       required: true,
       message: 'Project name',
     },
+    weather: {
+      when: 'isNotTest',
+      type: 'string',
+      required: true,
+      message: 'How\'s the weather today?',
+    },
     description: {
       when: 'isNotTest',
       type: 'string',
